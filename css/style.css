@@ -68,11 +68,37 @@ small {
     }
 }
 /* Home Slider */
+.HomeSlider {
+    height: 100vh;
+}
+.PageSubtitle {
+    text-align: center;
+    color: #2d3b09;
+    font-weight: bolder;
+    font-size: 24px; 
+}
+.SiteInfo {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
 .HomeSlider
     h1 {
         color: #546130;
+        text-align: center;
+        margin-top: 50px;
     }
-
+    span {
+        width: 100%;
+        text-align: center;
+    }
+    .SliderImg01, .SliderImg02 {
+        height: 100vh;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
 
 
 
